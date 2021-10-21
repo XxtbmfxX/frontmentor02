@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/XxtbmfxX/frontmentor02)
+- Live Site URL: [Add live site URL here](https://zealous-jang-f48ef8.netlify.app/)
 
 ## My process
 
@@ -65,8 +65,8 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@XxtbmfxX](https://www.frontendmentor.io/profile/XxtbmfxX)
+- Twitter - [@Xx_Toro_xX](https://twitter.com/Xx_Toro_xX)
 
 ## Acknowledgments
 
