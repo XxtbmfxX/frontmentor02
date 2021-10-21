@@ -1,0 +1,58 @@
+.Footer {
+  @include Flex-display(column);
+  width: 100%;
+  background-color: $Footer-background;
+  background-attachment: fixed;
+  padding-top: 40%;
+  padding-bottom: 20%;
+  padding-inline: 10%;
+  margin-top: 200px;
+  &_info {
+    width: 70%;
+    height: auto;
+    ul {
+      position: relative;
+      li {
+        img {
+          position: absolute;
+          left: -30px;
+        }
+      }
+    }
+  }
+
+  &_aboutUS,
+  &_contactUS {
+    @include Flex-display(column);
+    align-items: flex-start;
+    width: 90%;
+  }
+
+  &_socialMedia {
+    img {
+      width: 20px;
+      filter: invert(100%);
+    }
+  }
+
+  &_socialMedia {
+    width: 30%;
+    ul {
+      @include Flex-display(row);
+      justify-content: space-between;
+      li img:hover {
+        filter: invert(87%) sepia(88%) saturate(3619%) hue-rotate(150deg)
+          brightness(94%) contrast(87%);
+      }
+    }
+  }
+}
+
+.attribution {
+  margin-top: 10px;
+  background-color: $Main-background;
+}
+
+#logo-footer {
+  align-self: flex-start;
+}

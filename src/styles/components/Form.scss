@@ -1,0 +1,33 @@
+.Form {
+  @include Flex-display(column);
+  justify-content: space-around;
+  background-color: $Testimonials-background;
+  height: auto;
+  width: 90%;
+  padding: 10px;
+  border-radius: 12px;
+  position: absolute;
+  bottom: 900px;
+  &_text {
+    @include Flex-display(column);
+    justify-content: space-around;
+    height: 100px;
+    width: 90%;
+  }
+  &_submit {
+    form {
+      button {
+        @include Button-blue;
+        width: 90%;
+      }
+      input {
+        height: 40px;
+        width: 90%;
+        border-radius: 20px;
+        border-radius: 16px;
+        border-style: none;
+        outline: none;
+      }
+    }
+  }
+}

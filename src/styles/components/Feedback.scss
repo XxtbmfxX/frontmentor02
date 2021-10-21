@@ -1,0 +1,38 @@
+.Feedback {
+  @include Flex-display(column);
+
+  width: 100%;
+  height: auto;
+  img {
+    width: 90%;
+  }
+  &_text {
+    @include Flex-display(column);
+    justify-content: space-around;
+    height: 20vh;
+
+    p {
+      text-align: start;
+    }
+  }
+  &_link {
+    &:hover {
+      filter: invert(20%) sepia(100%) saturate(0%) hue-rotate(288deg)
+        brightness(130%) contrast(102%);
+    }
+    a {
+      align-self: flex-start;
+      border-bottom: 2px solid $Blue-call-to-action;
+      color: $Cyan-call-to-action;
+
+      span {
+        img {
+          justify-self: baseline;
+          width: 15px;
+          position: relative;
+          top: 4px;
+        }
+      }
+    }
+  }
+}

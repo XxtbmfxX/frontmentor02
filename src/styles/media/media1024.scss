@@ -1,0 +1,163 @@
+@media screen and (min-width: 1024px) {
+  .App {
+    ul {
+      margin-top: 0px;
+    }
+    span {
+      font-size: 2rem;
+    }
+    p {
+      font-size: 1.8rem;
+    }
+    h2 {
+      font-size: 2.5rem;
+    }
+  }
+
+  .Header {
+    padding-left: 50px;
+    &_options {
+      width: 40%;
+      height: 10vh;
+    }
+    img {
+      width: 130px;
+    }
+  }
+
+  .Landing {
+    padding-top: 50px;
+    background-size: 100%;
+    img {
+      width: 40%;
+    }
+    &_text {
+      width: 50%;
+      p {
+        width: 90%;
+      }
+    }
+    button {
+      width: 250px;
+      height: 50px;
+    }
+  }
+
+  .Options {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    align-items: center;
+    justify-items: center;
+    height: 500px;
+    &_element {
+      height: 50%;
+      width: 80%;
+      img {
+        width: 60px;
+      }
+    }
+  }
+
+  .Feedback {
+    flex-direction: row;
+    justify-content: space-around;
+    img {
+      width: 40%;
+    }
+    &_text {
+      align-items: flex-start;
+      justify-content: space-between;
+      width: 50%;
+      padding-inline: 60px;
+      h2 {
+        text-align: start;
+        width: 60%;
+      }
+    }
+  }
+
+  .Opinions {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    margin-top: 0px;
+    height: 40vh;
+    &_quotes {
+      top: 50px;
+      left: 30px;
+      width: 50px;
+    }
+    &_element {
+      height: 50%;
+      width: 90%;
+      position: relative;
+      margin: 0px;
+      &-user {
+        align-items: flex-start;
+
+        span {
+          font-size: 1rem;
+        }
+        h3 {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+
+  .Form {
+    bottom: 500px;
+    width: 80%;
+    padding: 30px;
+    &_submit {
+      width: 100%;
+      form {
+        @include Flex-display(row);
+        flex-direction: row;
+        justify-content: space-around;
+        button {
+          width: 40%;
+          margin: 0px;
+        }
+        input {
+          width: 50%;
+        }
+      }
+    }
+  }
+
+  #logo-footer {
+    position: absolute;
+    bottom: 400px;
+    left: 80px;
+  }
+  .Footer {
+    display: grid;
+    grid-template-columns: 30% 20% 20% 10%;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 30px;
+    padding-top: 30%;
+    padding-bottom: 10%;
+    padding-inline: 40px;
+    padding-left: 60px;
+    &_info,
+    &_aboutUs {
+      width: 100%;
+    }
+
+    &_socialMedia {
+      width: 120px;
+      img {
+        width: 30px;
+      }
+    }
+  }
+
+  .atributtion {
+    position: absolute;
+    bottom: 10px;
+    right: 100px;
+  }
+}

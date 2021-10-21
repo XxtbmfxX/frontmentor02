@@ -1,0 +1,70 @@
+//APP styles
+
+.App {
+  @include Flex-display(column);
+  background-color: $Main-background;
+  color: $White;
+  font-family: $Body-Font;
+  position: relative;
+
+  h1,
+  h2,
+  h3 {
+    font-family: $Headers-Navigation-fonts;
+  }
+
+  h1 {
+    font-size: 2rem;
+    font-weight: $Weight_2;
+  }
+  h2 {
+    font-weight: $Weight_2;
+    font-size: 1.8rem;
+  }
+
+  button:hover {
+    background-color: $Cyan-call-to-action;
+    cursor: pointer;
+  }
+
+  p {
+    font-size: 1.2rem;
+    font-weight: $Weight_1;
+  }
+}
+
+ul {
+  margin-top: 50px;
+
+  li {
+    list-style: none;
+    font-size: 1.5rem;
+    text-align: start;
+    margin-top: 20px;
+  }
+}
+span {
+  font-size: 1.2rem;
+  color: #a4a4a4;
+  &:hover {
+    cursor: pointer;
+    color: $White;
+  }
+}
+a {
+  text-decoration: none;
+  color: $White;
+  &:hover {
+    color: $Cyan-call-to-action;
+  }
+}
+
+//components
+
+@import "./Header.scss";
+@import "./Landing.scss";
+@import "./Options.scss";
+@import "./Feedback.scss";
+@import "./Opinions.scss";
+@import "./Form.scss";
+@import "./Footer.scss";

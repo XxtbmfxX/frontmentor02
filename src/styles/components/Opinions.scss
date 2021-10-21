@@ -1,0 +1,39 @@
+.Opinions {
+  @include Flex-display(column);
+  justify-content: space-evenly;
+  position: relative;
+  height: auto;
+  margin-top: 30%;
+  &_quotes {
+    position: absolute;
+    left: 40px;
+    top: -5px;
+    width: 25px;
+  }
+  &_element {
+    @include Flex-display(column);
+    align-items: flex-start;
+    justify-content: space-evenly;
+    background-color: $Testimonials-background;
+    border-radius: 12px;
+    padding: 20px;
+    height: 30%;
+    margin-bottom: 40px;
+    width: 80%;
+    h3,
+    span,
+    p {
+      text-align: start;
+    }
+
+    &-user {
+      @include Flex-display(row);
+      img {
+        margin-right: 10px;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+      }
+    }
+  }
+}
