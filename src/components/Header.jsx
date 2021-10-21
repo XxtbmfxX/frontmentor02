@@ -7,7 +7,7 @@ const Header = () => {
     <div className="Header">
       <img src={Logo} alt="fylo logo" />
       <div className="Header_options">
-        <span>Futures</span>
+        <span>Features</span>
         <span>Team</span>
         <span>Sing in</span>
       </div>
